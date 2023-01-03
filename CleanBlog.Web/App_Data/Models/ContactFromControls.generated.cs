@@ -23,11 +23,11 @@ namespace Umbraco.Web.PublishedModels
 	/// <summary>Contact From Controls</summary>
 	public partial interface IContactFromControls : IPublishedContent
 	{
-		/// <summary>Error Message</summary>
+		/// <summary>❌ Error Message</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		global::System.Web.IHtmlString ErrorMessage { get; }
 
-		/// <summary>Success Message</summary>
+		/// <summary>✅ Success Message</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		global::System.Web.IHtmlString SuccessMessage { get; }
 	}
@@ -58,24 +58,24 @@ namespace Umbraco.Web.PublishedModels
 		// properties
 
 		///<summary>
-		/// Error Message: Enter the message to show on error
+		/// ❌ Error Message: Enter the message to show on error
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		[ImplementPropertyType("errorMessage")]
 		public virtual global::System.Web.IHtmlString ErrorMessage => GetErrorMessage(this);
 
-		/// <summary>Static getter for Error Message</summary>
+		/// <summary>Static getter for ❌ Error Message</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		public static global::System.Web.IHtmlString GetErrorMessage(IContactFromControls that) => that.Value<global::System.Web.IHtmlString>("errorMessage");
 
 		///<summary>
-		/// Success Message: Enter the success message to show on success
+		/// ✅ Success Message: Enter the success message to show on success
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		[ImplementPropertyType("successMessage")]
 		public virtual global::System.Web.IHtmlString SuccessMessage => GetSuccessMessage(this);
 
-		/// <summary>Static getter for Success Message</summary>
+		/// <summary>Static getter for ✅ Success Message</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		public static global::System.Web.IHtmlString GetSuccessMessage(IContactFromControls that) => that.Value<global::System.Web.IHtmlString>("successMessage");
 	}

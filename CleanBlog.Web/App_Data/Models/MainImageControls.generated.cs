@@ -23,7 +23,7 @@ namespace Umbraco.Web.PublishedModels
 	/// <summary>Main Image Controls</summary>
 	public partial interface IMainImageControls : IPublishedContent
 	{
-		/// <summary>Main Image</summary>
+		/// <summary>📸 Main Image</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		global::Umbraco.Core.Models.MediaWithCrops MainImage { get; }
 	}
@@ -54,13 +54,13 @@ namespace Umbraco.Web.PublishedModels
 		// properties
 
 		///<summary>
-		/// Main Image: Choose the main image for this page
+		/// 📸 Main Image: Choose the main image for this page
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		[ImplementPropertyType("mainImage")]
 		public virtual global::Umbraco.Core.Models.MediaWithCrops MainImage => GetMainImage(this);
 
-		/// <summary>Static getter for Main Image</summary>
+		/// <summary>Static getter for 📸 Main Image</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		public static global::Umbraco.Core.Models.MediaWithCrops GetMainImage(IMainImageControls that) => that.Value<global::Umbraco.Core.Models.MediaWithCrops>("mainImage");
 	}

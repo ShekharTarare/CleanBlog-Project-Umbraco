@@ -23,11 +23,11 @@ namespace Umbraco.Web.PublishedModels
 	/// <summary>Article Controls</summary>
 	public partial interface IArticleControls : IPublishedContent
 	{
-		/// <summary>Article Date</summary>
+		/// <summary>📅 Article Date</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		global::System.DateTime ArticleDate { get; }
 
-		/// <summary>Author Name</summary>
+		/// <summary>😊 Author Name</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		string AuthorName { get; }
 	}
@@ -58,24 +58,24 @@ namespace Umbraco.Web.PublishedModels
 		// properties
 
 		///<summary>
-		/// Article Date: Enter the date for the article
+		/// 📅 Article Date: Enter the date for the article
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		[ImplementPropertyType("articleDate")]
 		public virtual global::System.DateTime ArticleDate => GetArticleDate(this);
 
-		/// <summary>Static getter for Article Date</summary>
+		/// <summary>Static getter for 📅 Article Date</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		public static global::System.DateTime GetArticleDate(IArticleControls that) => that.Value<global::System.DateTime>("articleDate");
 
 		///<summary>
-		/// Author Name: Enter the name of the author
+		/// 😊 Author Name: Enter the name of the author
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		[ImplementPropertyType("authorName")]
 		public virtual string AuthorName => GetAuthorName(this);
 
-		/// <summary>Static getter for Author Name</summary>
+		/// <summary>Static getter for 😊 Author Name</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		public static string GetAuthorName(IArticleControls that) => that.Value<string>("authorName");
 	}

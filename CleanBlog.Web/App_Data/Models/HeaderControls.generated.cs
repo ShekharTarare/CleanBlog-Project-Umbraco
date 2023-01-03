@@ -23,11 +23,11 @@ namespace Umbraco.Web.PublishedModels
 	/// <summary>Header Controls</summary>
 	public partial interface IHeaderControls : IPublishedContent
 	{
-		/// <summary>Subtitle</summary>
+		/// <summary>2️⃣ Subtitle</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		string Subtitle { get; }
 
-		/// <summary>Title</summary>
+		/// <summary>1️⃣ Title</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		string Title { get; }
 	}
@@ -58,24 +58,24 @@ namespace Umbraco.Web.PublishedModels
 		// properties
 
 		///<summary>
-		/// Subtitle: Enter a subtitle for this page
+		/// 2️⃣ Subtitle: Enter a subtitle for this page
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		[ImplementPropertyType("subtitle")]
 		public virtual string Subtitle => GetSubtitle(this);
 
-		/// <summary>Static getter for Subtitle</summary>
+		/// <summary>Static getter for 2️⃣ Subtitle</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		public static string GetSubtitle(IHeaderControls that) => that.Value<string>("subtitle");
 
 		///<summary>
-		/// Title: Enter the title for the page. If this is empty, then use the name of the page
+		/// 1️⃣ Title: Enter the title for the page. If this is empty, then use the name of the page
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		[ImplementPropertyType("title")]
 		public virtual string Title => GetTitle(this);
 
-		/// <summary>Static getter for Title</summary>
+		/// <summary>Static getter for 1️⃣ Title</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		public static string GetTitle(IHeaderControls that) => that.Value<string>("title");
 	}

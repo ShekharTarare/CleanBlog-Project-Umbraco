@@ -46,7 +46,7 @@
                             <div class="paging-block">
                                 @if (resultSet.PageNumber > 1)
                                 {
-                                    <a class="btn btn-primary float-left" href="@($"{resultSet.Url}?page={resultSet.PageNumber - 1}&size={resultSet.PageSize}")">Prev</a>
+                                    <a class="btn btn-primary float-left" href="@($"{resultSet.Url}?page={resultSet.PageNumber - 1}&size={resultSet.PageSize}")">@Umbraco.GetDictionaryValue("Blog.Prev")</a>
                                 }
                                 else
                                 {
@@ -59,7 +59,7 @@
                             <div class="paging-block">
                                 @if (resultSet.PageNumber < resultSet.PageCount)
                                 {
-                                    <a class="btn btn-primary float-right" href="@($"{resultSet.Url}?page={resultSet.PageNumber + 1}&size={resultSet.PageSize}")">Next</a>
+                                    <a class="btn btn-primary float-right" href="@($"{resultSet.Url}?page={resultSet.PageNumber + 1}&size={resultSet.PageSize}")">@Umbraco.GetDictionaryValue("Blog.Next")</a>
                                 }
                                 else
                                 {
@@ -71,7 +71,7 @@
                     }
                     else
                     {
-                        <a class="btn btn-primary float-right" href="@(resultSet.Url)">View All</a>
+                        <a class="btn btn-primary float-right" href="@(resultSet.Url)">@Umbraco.GetDictionaryValue("Blog.ViewAll")</a>
                     }
                 </div>
             </div>

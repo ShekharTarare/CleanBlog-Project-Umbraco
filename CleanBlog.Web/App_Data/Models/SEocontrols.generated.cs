@@ -23,15 +23,15 @@ namespace Umbraco.Web.PublishedModels
 	/// <summary>SEO Controls</summary>
 	public partial interface ISEocontrols : IPublishedContent
 	{
-		/// <summary>Meta description</summary>
+		/// <summary>🔍 Meta description</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		string MetaDescription { get; }
 
-		/// <summary>Meta Keywords</summary>
+		/// <summary>🔍 Meta Keywords</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		global::System.Collections.Generic.IEnumerable<string> MetaKeywords { get; }
 
-		/// <summary>Meta Name</summary>
+		/// <summary>🔍 Meta Name</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		string MetaName { get; }
 	}
@@ -62,35 +62,35 @@ namespace Umbraco.Web.PublishedModels
 		// properties
 
 		///<summary>
-		/// Meta description: Enter the meta description for this page
+		/// 🔍 Meta description: Enter the meta description for this page
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		[ImplementPropertyType("metaDescription")]
 		public virtual string MetaDescription => GetMetaDescription(this);
 
-		/// <summary>Static getter for Meta description</summary>
+		/// <summary>Static getter for 🔍 Meta description</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		public static string GetMetaDescription(ISEocontrols that) => that.Value<string>("metaDescription");
 
 		///<summary>
-		/// Meta Keywords: Enter the keywords for this page
+		/// 🔍 Meta Keywords: Enter the keywords for this page
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		[ImplementPropertyType("metaKeywords")]
 		public virtual global::System.Collections.Generic.IEnumerable<string> MetaKeywords => GetMetaKeywords(this);
 
-		/// <summary>Static getter for Meta Keywords</summary>
+		/// <summary>Static getter for 🔍 Meta Keywords</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		public static global::System.Collections.Generic.IEnumerable<string> GetMetaKeywords(ISEocontrols that) => that.Value<global::System.Collections.Generic.IEnumerable<string>>("metaKeywords");
 
 		///<summary>
-		/// Meta Name: Enter the meta name for this page
+		/// 🔍 Meta Name: Enter the meta name for this page
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		[ImplementPropertyType("metaName")]
 		public virtual string MetaName => GetMetaName(this);
 
-		/// <summary>Static getter for Meta Name</summary>
+		/// <summary>Static getter for 🔍 Meta Name</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		public static string GetMetaName(ISEocontrols that) => that.Value<string>("metaName");
 	}

@@ -23,7 +23,7 @@ namespace Umbraco.Web.PublishedModels
 	/// <summary>Content Controls</summary>
 	public partial interface IContentControls : IPublishedContent
 	{
-		/// <summary>Main Content</summary>
+		/// <summary>📖 Main Content</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		global::Newtonsoft.Json.Linq.JToken MainContent { get; }
 	}
@@ -54,13 +54,13 @@ namespace Umbraco.Web.PublishedModels
 		// properties
 
 		///<summary>
-		/// Main Content
+		/// 📖 Main Content
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		[ImplementPropertyType("mainContent")]
 		public virtual global::Newtonsoft.Json.Linq.JToken MainContent => GetMainContent(this);
 
-		/// <summary>Static getter for Main Content</summary>
+		/// <summary>Static getter for 📖 Main Content</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		public static global::Newtonsoft.Json.Linq.JToken GetMainContent(IContentControls that) => that.Value<global::Newtonsoft.Json.Linq.JToken>("mainContent");
 	}

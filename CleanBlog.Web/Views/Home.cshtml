@@ -5,4 +5,4 @@
 <!-- Page Header-->
 @Html.Partial("~/Views/Partials/pageHeader.cshtml")
 <!-- Main Content-->
-@Html.Partial("~/Views/Partials/latestArticles.cshtml")
+@Html.CachedPartial("~/Views/Partials/latestArticles.cshtml", Model, 3600, true)

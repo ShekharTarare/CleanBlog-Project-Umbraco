@@ -23,11 +23,11 @@ namespace Umbraco.Web.PublishedModels
 	/// <summary>Visibility Controls</summary>
 	public partial interface IVisibilityControls : IPublishedContent
 	{
-		/// <summary>Hide from XML Sitemap</summary>
+		/// <summary>👀 Hide from XML Sitemap</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		bool HideFromXmlsitemap { get; }
 
-		/// <summary>Umbraco Navi Hide</summary>
+		/// <summary>🐱‍👤 Umbraco Navi Hide</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		bool UmbracoNaviHide { get; }
 	}
@@ -58,24 +58,24 @@ namespace Umbraco.Web.PublishedModels
 		// properties
 
 		///<summary>
-		/// Hide from XML Sitemap: Tick this if you want to hide this page from XML Sitemap
+		/// 👀 Hide from XML Sitemap: Tick this if you want to hide this page from XML Sitemap
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		[ImplementPropertyType("hideFromXMLSitemap")]
 		public virtual bool HideFromXmlsitemap => GetHideFromXmlsitemap(this);
 
-		/// <summary>Static getter for Hide from XML Sitemap</summary>
+		/// <summary>Static getter for 👀 Hide from XML Sitemap</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		public static bool GetHideFromXmlsitemap(IVisibilityControls that) => that.Value<bool>("hideFromXMLSitemap");
 
 		///<summary>
-		/// Umbraco Navi Hide: Tick this box if you want to hide this page from the navigation and from search results
+		/// 🐱‍👤 Umbraco Navi Hide: Tick this box if you want to hide this page from the navigation and from search results
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		[ImplementPropertyType("umbracoNaviHide")]
 		public virtual bool UmbracoNaviHide => GetUmbracoNaviHide(this);
 
-		/// <summary>Static getter for Umbraco Navi Hide</summary>
+		/// <summary>Static getter for 🐱‍👤 Umbraco Navi Hide</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		public static bool GetUmbracoNaviHide(IVisibilityControls that) => that.Value<bool>("umbracoNaviHide");
 	}

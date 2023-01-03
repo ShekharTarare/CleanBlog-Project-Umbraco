@@ -45,14 +45,14 @@ namespace Umbraco.Web.PublishedModels
 		// properties
 
 		///<summary>
-		/// Error Message: Enter the message to show on error
+		/// ❌ Error Message: Enter the message to show on error
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		[ImplementPropertyType("errorMessage")]
 		public virtual global::System.Web.IHtmlString ErrorMessage => global::Umbraco.Web.PublishedModels.ContactFromControls.GetErrorMessage(this);
 
 		///<summary>
-		/// Success Message: Enter the success message to show on success
+		/// ✅ Success Message: Enter the success message to show on success
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		[ImplementPropertyType("successMessage")]

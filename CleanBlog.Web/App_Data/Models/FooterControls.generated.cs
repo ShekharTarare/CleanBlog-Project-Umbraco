@@ -23,7 +23,7 @@ namespace Umbraco.Web.PublishedModels
 	/// <summary>Footer Controls</summary>
 	public partial interface IFooterControls : IPublishedContent
 	{
-		/// <summary>Social Links</summary>
+		/// <summary>🔗 Social Links</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		global::System.Collections.Generic.IEnumerable<global::Umbraco.Web.PublishedModels.IconLinkItem> SocialLinks { get; }
 	}
@@ -54,13 +54,13 @@ namespace Umbraco.Web.PublishedModels
 		// properties
 
 		///<summary>
-		/// Social Links: Enter the social link for the footer
+		/// 🔗 Social Links: Enter the social link for the footer
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		[ImplementPropertyType("socialLinks")]
 		public virtual global::System.Collections.Generic.IEnumerable<global::Umbraco.Web.PublishedModels.IconLinkItem> SocialLinks => GetSocialLinks(this);
 
-		/// <summary>Static getter for Social Links</summary>
+		/// <summary>Static getter for 🔗 Social Links</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.5")]
 		public static global::System.Collections.Generic.IEnumerable<global::Umbraco.Web.PublishedModels.IconLinkItem> GetSocialLinks(IFooterControls that) => that.Value<global::System.Collections.Generic.IEnumerable<global::Umbraco.Web.PublishedModels.IconLinkItem>>("socialLinks");
 	}
